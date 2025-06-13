@@ -3,10 +3,6 @@ import json
 from adapters.inbound.api import create_app
 
 
-import pytest
-import json
-
-
 @pytest.fixture
 def client():
     app = create_app()
